@@ -1,0 +1,71 @@
+/* 1. Global Page Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 40px 20px;
+    background-color: #f4f6f9;
+    color: #333333;
+}
+
+/* 2. Container to center and limit width */
+.container {
+    max-width: 800px;
+    margin: 0 auto; 
+    background-color: #ffffff; 
+    padding: 40px;
+    border-radius: 8px; 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05); 
+}
+
+/* 3. Headings Styling */
+h1 {
+    color: #003366; 
+    font-size: 28px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+h2 {
+    color: #4a5568;
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 400;
+}
+
+/* 4. Subtitle and Intro text */
+.subtitle {
+    font-style: italic;
+    color: #718096;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+
+.intro {
+    background-color: #ebf8ff; 
+    border-left: 4px solid #3182ce; 
+    padding: 15px;
+    border-radius: 4px;
+    margin-bottom: 35px;
+}
+
+/* 5. Lists Spacing out (using margin-bottom) */
+.terms-list > li {
+    margin-bottom: 25px; 
+    font-size: 18px;
+    color: #003366; 
+}
+
+.terms-list ul {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.terms-list ul li {
+    margin-bottom: 8px;
+    font-size: 15px;
+    color: #4a5568;
+}
