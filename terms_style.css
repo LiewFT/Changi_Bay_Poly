@@ -11,9 +11,10 @@ body {
     max-width: 800px;
     margin: 0 auto;
     background-color: #ffffff;
-    padding: 40px;
+    padding: 50px;
+    padding-top: 150px;
     border-radius: 8px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 4px 12px rgba(1, 1, 1, 1);
 }
 
 h1 {
@@ -66,7 +67,37 @@ h2 {
 }
 
 .logo {
-    max-width: 150px;
-    display: block;
-    margin: 0 auto 30px auto;
+    max-width: 220px;
+    height: auto;
+
+    position: absolute;
+    top: 60px;
+    left: 15%;
+}
+
+.welc {
+    text-align: center;
+    font-size: 18px;
+    color: #2d3748;
+    margin-bottom: 20px;
+}
+
+nav {
+    margin-bottom: 30px;
+}
+
+nav a {
+    color: #3182ce;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    transition: transform 0.2s ease, color 0.2s ease
+}
+
+nav a:hover {
+   transform: scale(1.1);
+}
+
+html {
+    scroll-behavior: smooth;
 }
