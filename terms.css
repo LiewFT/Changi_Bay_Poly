@@ -67,12 +67,7 @@ h2 {
 }
 
 .logo {
-    max-width: 220px;
-    height: auto;
-
-    position: absolute;
-    top: 60px;
-    left: 15%;
+    max-width: 150px;
 }
 
 .welc {
@@ -100,4 +95,9 @@ nav a:hover {
 
 html {
     scroll-behavior: smooth;
+}
+.banner {
+    background-color: #fdfcfc;
+    width: 100%;
+    
 }
