@@ -1,40 +1,198 @@
 .product-container {
   display: flex;
   gap: 20px;
+  justify-content: center;
+
+
+
+}
+
+.product {
+  text-align: center
+}
+
+.egg1 {
+  flex: 2;
+  width: 50%
+}
+
+.egg2 {
+  flex: 2;
+  width: 50%
 }
 
 .product-container img {
   transition: transform 0.2s ease;
+  width: 700px;
+  height: 400px;
+  border-radius: 15px;
+}
+
+.product-container h3 {
+  text-align: center;
+  display: inline-block;
 }
 
 .product-container img:hover {
   transform: scale(1.05);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4);
+  ;
+
+
 }
+
+.title img {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+}
+
 .title {
-    background-color: aliceblue;
-    font-family: 'Times New Roman', Times, serif;
+  background-color: black;
 }
 
 h1 {
-    text-align: center;
+  text-align: center;
 }
 
-.title{background-image: url(../../../../CBP.png);
 
-    height: 20vh;
-    
-    
+
+
+
+
+body {
+  background-color: beige;
+
 }
-table{background-color: rgb(255, 85, 23);}
 
-body{background-color: white;
-color: black;}
+.links {
+  text-align: center;
+  word-spacing: 100px;
+  color: black;
+  background-color: lightblue;
 
-.links{text-align: center;
-word-spacing: 20px;}
+}
 
-.Banner{width: 100%
-;height: 500px;}
+.links a {
+  color: black;
+  text-decoration: none;
+  transition: transform 0.2s ease;
+}
 
-.Banner_Cover{width: 100%
-;height: 500px;}
+.links a:hover {
+  transform: scale(1.05);
+}
+
+.Reviews {
+  display: flex;
+  justify-content: center;
+}
+
+.No-1 {
+  background: #f5f0eb;
+  padding: 20px;
+  border: 2px solid #b68b6b;
+  border-radius: 12px;
+  max-width: 400px;
+  font-size: 1rem;
+  color: #1e2b3c;
+}
+
+.No-2 {
+  background: #f5f0eb;
+  padding: 20px;
+  border: 2px solid #b68b6b;
+  border-radius: 12px;
+  max-width: 400px;
+  font-size: 1rem;
+  color: #1e2b3c;
+}
+
+.Num-1 h2 {
+  text-align: center;
+}
+
+.Num-1 p {
+  line-height: 1.9;
+}
+
+.Banner {
+  width: 100%;
+  height: 500px;
+  background-color: lightblue;
+}
+
+.Banner_Cover {
+  width: 100%;
+  height: 500px;
+
+}
+
+.list {
+  display: flex;
+  gap: 120px;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  background-color: beige;
+}
+
+.Collection {
+  text-align: center;
+  background-color: beige
+}
+
+.Icon-circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 2.5px solid #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+  margin: 0 auto 1rem;
+}
+
+.circle-sun {
+  background-color: rgb(250, 230, 50);
+}
+
+.circle-money {
+  background-color: #6aa231;
+}
+
+.circle-hanger {
+  background-color: burlywood;
+}
+
+.circle-badge {
+  background-color: rgb(209, 224, 237);
+}
+
+
+
+.Reason1 {
+  text-align: center;
+}
+
+.Reason2 {
+  text-align: center;
+}
+
+.Reason3 {
+  text-align: center;
+}
+
+.Reason4 {
+  text-align: center;
+}
+
+.why-us {
+  text-align: center;
+  background-color: beige
+}
+
+.About {
+  text-align: center;
+}
